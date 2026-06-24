@@ -402,6 +402,7 @@ there.
 */
 
 
+
 /* Larger than mobile */
 @media (min-width: 400px) {}
 
@@ -416,3 +417,30 @@ there.
 
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {}
+
+
+
+  /* Custom monograph entry */
+  .monograph-entry {
+    margin: 1.5rem 0 2.5rem;
+    line-height: 1.5;
+  }
+
+  .monograph-label {
+    font-size: 1.7rem;
+    font-weight: 600;
+    margin-bottom: 0.25rem;
+  }
+
+  .monograph-title {
+    display: inline-block;
+    font-size: 2.0rem;
+    line-height: 1.35;
+    font-weight: 600;
+  }
+
+  .monograph-details {
+    margin-top: 0.5rem;
+    font-size: 1.6rem;
+    color: #444;
+  }
